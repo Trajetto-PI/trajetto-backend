@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-
+require('dotenv').config(); 
 // Cole sua string de conexão do Neon aqui ou utilize variável de ambiente
 const pool = new Pool({
   connectionString: process.env.String_Connection,
