@@ -1,0 +1,42 @@
+Arquitetura utilizada: MVC
+
+MVC -
+
+M - Model
+V - View
+C - Controllers
+
+Model Regras de negocio, e validações
+View fica a parte visual, testes no html (sem CSS)
+Controllers fica as APIS do sistema, rotas e etc..
+
+##FUNCIONALIDADES
+
+APIS (controllers)
+
+USERS/ (pasta)
+
+    -Auth/ (subpasta)
+        
+        -Login (Motorista, empresas)
+        -Registro (Motorista, empresas)
+        -Type (tipo de usuarios)
+        -Config (Carregar informações usuario)
+
+Home/
+ -Map
+ -Search
+
+Services/
+    -Fretes ativos
+    -Fretes inativos
+    -Frete TELA
+
+    Chat/ (Subpasta de services)
+        -Mensagens
+
+
+======================================= Fim da pasta ===================
+
+
+Models (Parte de validação)
